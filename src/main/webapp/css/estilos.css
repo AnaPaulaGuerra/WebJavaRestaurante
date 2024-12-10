@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+img{
+	width:300px;
+	height: 200px;
+}
+
+body{
+	background-color: #fee6a4
+	
+}
+
+input[type=submit]{
+	background-color: green;
+	color: white;
+	padding: 8px;
+	border:none;
+}
+
+input[type=reset]{
+	background-color:red;
+	color: white;
+	padding: 8px;
+	border:none;
+}
+
+.reservas{
+	width:100%;
+	border-collapse: collapse;
+	
+}
+
+.reservas td, .reservas th{
+	border: 1px solid #ddd;
+	padding: 5px;
+	text-align: center
+}
+
+.reservas th{
+	background-color: green;
+	color: white
+}
+
+.reservas tr:hover{
+	background-color: #ddd;
+}
